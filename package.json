@@ -2,7 +2,7 @@
 	"name": "task-tracker1",
 	"version": "0.1.0",
 	"private": true,
-	"homepage": "http://rayeen-sadrul.github.io/task-tracker1",
+	"homepage": "http://rayeen-sadrul.github.io/task-tracker/",
 	"dependencies": {
 		"@testing-library/jest-dom": "^5.11.4",
 		"@testing-library/react": "^11.1.0",
@@ -22,7 +22,7 @@
 		"eject": "react-scripts eject",
 		"server": "json-server --watch db.json --port 5000",
 		"predeploy": "npm run build",
-		"deploy": "gh-pages -d build"
+		"deploy": "gh-pages -b gh-deploy -d build"
 	},
 	"eslintConfig": {
 		"extends": [
